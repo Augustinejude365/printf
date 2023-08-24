@@ -67,7 +67,7 @@ int precision, int flags, int width);
 int print_hexa_upper(va_list types, char buffer[], int size,
 int precision, int flags, int width);
 int print_hexa(va_list types, char map_to[], char buffer[],
-int flags, char flag_ch, int size, int precision, int flags, int width);
+int flags, char flag_ch,  int size, int precision, int width);
 
 /*A function that prints non printable characters */
 int print_non_printable(va_list types, char buffer[], int size,
